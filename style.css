@@ -1,0 +1,226 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* css variable */
+:root{
+    --navbar-height: 59px;
+}
+/* navigation bar */
+#navbar{
+    display: flex;
+    align-items: center;
+}
+/* navigation bar:logo and image */
+
+#logo{
+    margin-top: -10px;
+    margin-left: 50px;
+    
+}
+#logo img{
+    height: 129px;
+    width: 170px;
+}
+#navbar ul{
+    display: flex;
+    
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.0rem;
+    
+}
+#navbar ul li a{
+    font-family: 'Bree Serif', serif;
+    color:  rgb(20, 20, 58);
+    display: block;
+    padding: 8px 17px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: -36px;
+    margin-right: 10px;
+    
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: rgb(233, 216, 230);
+    
+    
+}
+/* middle section */
+#middle{
+    font-size: 2.1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 200px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+   
+}
+#middle::before{
+    top: 0px;
+    left: 0px;
+    margin: 0%;
+    padding: 0%;
+    content: "";
+    background: url('http://www.ekeralatourism.net/wp-content/uploads/2018/03/Idukki.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    z-index: -1;
+   
+}
+.heading{
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 55px 200px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: 'Bree Serif', serif;
+}
+#services{
+    margin: 34px;
+    display: flex;
+    
+}
+
+#services .box{
+    border: 2px solid brown;
+    padding: 17px;
+    margin: -65px 8px;
+    border-radius: 28px;
+    background: white;
+    margin-bottom: 20px;
+
+   
+}
+#services .box img{
+    height: 190px;
+    margin: auto;
+    display: block;
+    
+}
+
+#services .box p{
+    font-family: 'Roboto', sans-serif;
+}
+.h-secondary{
+    font-size: 2.1rem;
+    padding: 5px 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: 'Bree Serif', serif;
+}
+.text{
+    text-align: justify ;
+}
+#client::before{
+    content: "";
+    background: url('https://tse2.mm.bing.net/th?id=OIP.iVrJBHaL_OGArmhPK9z4DQHaC7&pid=Api&P=0&w=474&h=188') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    
+    
+    
+    
+}
+.heading1{
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 55px 200px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: 'Bree Serif', serif;
+}
+#client{
+   position: relative;
+}
+.clientitem{
+    
+    padding: 20px;
+
+   
+}
+#client2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#client img{
+   
+    height: 45px;
+}
+.client1{
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    /* padding: 15px 10px; */
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: 'Bree Serif', serif;
+
+}
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    background: url('https://tse3.mm.bing.net/th?id=OIP.UcjtF499aPL1UPJ8PuCoowHaCB&pid=Api&P=0&w=679&h=186') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+   
+    
+}
+#contactbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contactbox label{
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+
+}
+#contactbox .formgroup1{
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+    width: 4.6rem;
+    padding: 5px 150px;
+
+}
+#contactbox input,
+#contactbox textarea{
+    width: 100%;
+    padding: 0.3rem;
+    border-radius: 0.4rem;
+    font-size: 0.9rem;
+}
+footer .center{
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  
+    font-family: 'Bree Serif', serif;
+}
